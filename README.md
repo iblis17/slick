@@ -1,7 +1,8 @@
 Slick
 =====
 
-Slick is a reference implementation for using the `SoftLayer Python Bindings <https://github.com/softlayer/softlayer-api-python-client>`_. It implements a small web portal using a variety of open source projects to show the type of application you can build with the bindings.
+Slick is a reference implementation for using the [SoftLayer Python Bindings](https://github.com/softlayer/softlayer-api-python-client).
+It implements a small web portal using a variety of open source projects to show the type of application you can build with the bindings.
 
 .. WARNING::
    This software is currently in active development. Some expertise is required for initial installation and setup.
@@ -44,7 +45,7 @@ If you don't want to have everything in /usr/local/slick make sure to change ale
 cp config.py.sample config.py
 export SLICK_CONFIG_FILE=/usr/local/slick/config.py
 ```
-You will need to either add SLICK_CONFIG_FILE to your bashrc, or export it every time you reboot.
+You will need to either add `SLICK_CONFIG_FILE` to your bashrc, or export it every time you reboot.
 
 #### Finally running
 This will start the web server on port 5000
